@@ -1,28 +1,28 @@
 {
     "architecture": [
         "64bit",
-        ""
+        "WindowsPE"
     ],
-    "machine": "x86_64",
-    "os_name": "posix",
-    "platform": "macOS-11.4-x86_64-i386-64bit",
-    "processor": "i386",
-    "release": "20.5.0",
-    "system": "Darwin",
+    "machine": "AMD64",
+    "os_name": "nt",
+    "platform": "Windows-10-10.0.22000-SP0",
+    "processor": "ARMv8 (64-bit) Family 8 Model 0 Revision   0,  ",
+    "release": "10",
+    "system": "Windows",
     "uname": [
-        "Darwin",
-        "Ramonas-MacBook-Pro.local",
-        "20.5.0",
-        "Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64",
-        "x86_64",
-        "i386"
+        "Windows",
+        "AAROLAHTINE1D89",
+        "10",
+        "10.0.22000",
+        "AMD64",
+        "ARMv8 (64-bit) Family 8 Model 0 Revision   0,  "
     ],
-    "version": "Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64",
+    "version": "10.0.22000",
     "python_build": [
-        "v3.10.4:9d38120e33",
-        "Mar 23 2022 17:29:05"
+        "tags/v3.10.4:9d38120",
+        "Mar 23 2022 23:13:41"
     ],
-    "python_compiler": "Clang 13.0.0 (clang-1300.0.29.30)",
+    "python_compiler": "MSC v.1929 64 bit (AMD64)",
     "python_implementation(": "CPython",
     "python_version(": "3.10.4",
     "python_version_tuple": [
