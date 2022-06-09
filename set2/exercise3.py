@@ -48,9 +48,6 @@ def fix_it(moves=True, should_move=True):
     
 
     
-          
-
-
 
 def loops_preview():
     """Make 8 poops.
