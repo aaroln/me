@@ -15,18 +15,21 @@ import platform
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
-# This will store a list inside in the variable 'some_words'
-some_words = ["what", "does", "this", "line", "do", "?"]
+# This will create a list called 'some_words'
+some_words = ["what", "does", "this", "line", "do", "?"] #created a list 
 
-
+# Select the first word in the list and then print it. This loop will continue until it has gone through all the strings in the list.
 for word in some_words:
-    print(word)
+    print(word) # prints each string onto a separate line. 
 
+# Will perform the same, however, it will be under a new variable 'x'.
 for x in some_words:
-    print(x)
+    print(x) # Printed each word onto a separate line.
 
-print(some_words)
+# This will print out the full list
+print(some_words) # Printed out the list.
 
+# If the length of the list 'some_words' is greater than 3, will print the string. if it's not, nothing will happen. 
 if len(some_words) > 3:
     print("some_words contains more than 3 words")
 
