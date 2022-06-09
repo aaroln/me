@@ -75,7 +75,7 @@ def loops_1a():
     return star_list
 
 
-def loops_1c(number_of_items=5, symbol="#"):
+def loops_1c(number_of_items= 5, symbol = "#"):
     """Respond to variables.
 
     Return a list of number_of_items items, each one a
@@ -85,10 +85,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    hash_list = []
+    c_list = []
     for i in range(number_of_items):
-        hash_list.append(symbol)
-    return hash_list
+        c_list.append(symbol)
+    return c_list
 
 
 
@@ -110,9 +110,16 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    return None
-
-
+    no_of_items = 10
+    symbol_2 = "*"
+    stars = []
+    for i in range(no_of_items):
+        stars.append(symbol_2)
+    starfield = []
+    for i in range(no_of_items):
+        starfield.append(stars)
+    return starfield
+    
 def loops_3():
     """Make a rising block of numbers.
 
@@ -134,7 +141,7 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return None
+    
 
 
 def loops_4():
@@ -154,7 +161,13 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    return None
+    tall = 10
+    left_right = [i for i in range(0,10)]
+    block_left_right = []
+    for i in range(tall):
+        block_left_right.append(left_right)
+    return block_left_right
+
 
 
 def loops_5():
