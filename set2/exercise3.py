@@ -141,7 +141,9 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    
+    lst = []
+    for i in range(1,11):
+        lst.append("0")
 
 
 def loops_4():
@@ -161,12 +163,11 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    tall = 10
-    left_right = [i for i in range(0,10)]
-    block_left_right = []
-    for i in range(tall):
-        block_left_right.append(left_right)
-    return block_left_right
+    left_right = []
+    for i in range(1,11):
+        left_right.append(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"])
+    return left_right
+
 
 
 
