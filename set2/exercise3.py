@@ -208,13 +208,13 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    constant = []
+    i_coord = []
     for x in range(10):
-        changing = []
+        j_coord = []
         for y in range(5):
-            changing.append(f"(i{str(x)}, j{str(y)})")
-        constant.append(changing)
-    return constant
+            j_coord.append(f"(i{str(x)}, j{str(y)})")
+        i_coord.append(j_coord)
+    return i_coord
     
 
 
@@ -239,9 +239,15 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    return None
+    wedge = []
+    for x in range(10):
+        changing = []
+        for y in map(str, range(x+1)):
+            changing.append(y)
+        wedge.append(changing)
+    return wedge
 
-
+        
 def loops_7():
     """Make a pyramid.
 
