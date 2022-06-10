@@ -141,9 +141,17 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    lst = []
-    for i in range(1,11):
-        lst.append("0")
+    constant = []
+    for x in map(str, range(10)):
+        changing = []
+        for y in range(10):
+            changing.append(x)
+        constant.append(changing)
+    return constant
+    
+
+        
+
 
 
 def loops_4():
@@ -163,7 +171,13 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    
+    constant = []
+    for x in range(10):
+        changing = []
+        for y in map(str, range(10)):
+            changing.append(y)
+        constant.append(changing)
+    return constant
 
 
 
@@ -194,7 +208,7 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    return None
+
 
 
 def loops_6():
