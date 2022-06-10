@@ -116,7 +116,7 @@ def loops_2():
     for i in range(no_of_items):
         stars.append(symbol_2)
     starfield = []
-    for i in range(no_of_items):
+    for x in range(no_of_items):
         starfield.append(stars)
     return starfield
     
@@ -163,11 +163,7 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    left_right = []
-    for i in range(1,11):
-        left_right.append(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"])
-    return left_right
-
+    
 
 
 
