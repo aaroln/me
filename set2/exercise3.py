@@ -208,6 +208,14 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
+    constant = []
+    for x in range(10):
+        changing = []
+        for y in range(5):
+            changing.append(f"(i{str(x)}, j{str(y)})")
+        constant.append(changing)
+    return constant
+    
 
 
 
