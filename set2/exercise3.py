@@ -288,9 +288,9 @@ def loops_7():
         asterisks = []
         for y in range(x):
             asterisks.append(symbol)
+        print(asterisks)
 
-        pyramid.append(asterisks)
-    print(pyramid)
+
     return pyramid
         
     
