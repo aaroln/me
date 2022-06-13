@@ -271,19 +271,25 @@ def loops_7():
     lots of diagrams!
     """
     chosen_range = range(5,0,-1)
-    n = 2
+    chosen_range_2 = range(1,10,2)
     symbol = "*"
     space = " "
-    chosen_range_2 = range(1,6)
+    
 
     
     pyramid = []
     for i in chosen_range:
         spaces_1 = []
-        print(i)
         for j in range(i - 1):
             spaces_1.append(space)
         pyramid.append(spaces_1)
+
+    for x in chosen_range_2:
+        asterisks = []
+        for y in range(x):
+            asterisks.append(symbol)
+
+        pyramid.append(asterisks)
     print(pyramid)
     return pyramid
         
