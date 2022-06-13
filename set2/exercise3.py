@@ -239,8 +239,9 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
+    chosen_range = 10
     wedge = []
-    for x in range(10):
+    for x in range(chosen_range):
         changing = []
         for y in map(str, range(x+1)):
             changing.append(y)
@@ -269,13 +270,26 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
+    chosen_range = range(5,0,-1)
+    n = 2
+    symbol = "*"
+    space = " "
+    chosen_range_2 = range(1,6)
+
+    
     pyramid = []
-    for x in range(10):
-        changing = []
-        for y in map(str, range(x+1)):
-            changing.append(y)
-        pyramid.append(changing)
+    for i in chosen_range:
+        spaces_1 = []
+        print(i)
+        for j in range(i - 1):
+            spaces_1.append(space)
+        pyramid.append(spaces_1)
+    print(pyramid)
     return pyramid
+        
+    
+
+
 
 
 def little_printer(some_kind_of_list, exercise_name):
