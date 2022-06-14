@@ -278,13 +278,13 @@ def loops_7():
     symbol = "*"
     space = " "
 
-    left = []
+    spaces = []
 
     for i in chosen_range:
         spaces_1 = []
         for j in range(i - 1):
             spaces_1.append(space)
-        left.append(spaces_1)
+        spaces.append(spaces_1)
 
     
     middle = []
@@ -295,11 +295,11 @@ def loops_7():
             asterisks.append(symbol)
         middle.append(asterisks)
 
-    left_0 = left[0] 
-    left_1 = left[1]
-    left_2 = left[2]
-    left_3 = left[3]
-    left_4 = left[4]
+    spaces_0 = spaces[0] 
+    spaces_1 = spaces[1]
+    spaces_2 = spaces[2]
+    spaces_3 = spaces[3]
+    spaces_4 = spaces[4]
 
     middle_0 = middle[0]
     middle_1 = middle[1]
@@ -307,11 +307,11 @@ def loops_7():
     middle_3 = middle[3]
     middle_4 = middle[4]
 
-    lst_0 = left_0 + middle_0 + left_0
-    lst_1 = left_1 + middle_1 + left_1
-    lst_2 = left_2 + middle_2 + left_2
-    lst_3 = left_3 + middle_3 + left_3
-    lst_4 = left_4 + middle_4 + left_4
+    lst_0 = spaces_0 + middle_0 + spaces_0
+    lst_1 = spaces_1 + middle_1 + spaces_1
+    lst_2 = spaces_2 + middle_2 + spaces_2
+    lst_3 = spaces_3 + middle_3 + spaces_3
+    lst_4 = spaces_4 + middle_4 + spaces_4
     total = [lst_0] + [lst_1] + [lst_2] + [lst_3] + [lst_4]
     return total
 

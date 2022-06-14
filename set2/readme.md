@@ -1,1 +1,2 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+I was confident heading into the class.
+The first three questions were easy  
