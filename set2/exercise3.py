@@ -2,6 +2,9 @@
 """Modify each function until the tests pass."""
 
 
+from itertools import chain
+
+
 def is_odd(a_number):
     """Return True if a_number is odd, and False if a_number is even.
 
@@ -274,24 +277,65 @@ def loops_7():
     chosen_range_2 = range(1,10,2)
     symbol = "*"
     space = " "
-    
 
-    
-    pyramid = []
+    left = []
+
     for i in chosen_range:
         spaces_1 = []
         for j in range(i - 1):
             spaces_1.append(space)
-        pyramid.append(spaces_1)
+        left.append(spaces_1)
+
+    
+    middle = []
 
     for x in chosen_range_2:
         asterisks = []
         for y in range(x):
             asterisks.append(symbol)
-        print(asterisks)
+        middle.append(asterisks)
+
+    left_0 = left[0] 
+    left_1 = left[1]
+    left_2 = left[2]
+    left_3 = left[3]
+    left_4 = left[4]
+
+    middle_0 = middle[0]
+    middle_1 = middle[1]
+    middle_2 = middle[2]
+    middle_3 = middle[3]
+    middle_4 = middle[4]
+
+    lst_0 = left_0 + middle_0 + left_0
+    lst_1 = left_1 + middle_1 + left_1
+    lst_2 = left_2 + middle_2 + left_2
+    lst_3 = left_3 + middle_3 + left_3
+    lst_4 = left_4 + middle_4 + left_4
+    total = [lst_0] + [lst_1] + [lst_2] + [lst_3] + [lst_4]
+    return total
 
 
-    return pyramid
+
+
+
+
+    
+            
+
+
+    
+
+        
+
+        
+            
+        
+        
+
+        
+        
+    
         
     
 
