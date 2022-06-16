@@ -45,7 +45,7 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    
+        
 
 
 def not_number_rejector(message):
