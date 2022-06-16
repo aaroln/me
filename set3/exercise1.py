@@ -5,6 +5,9 @@ Modify each function until the tests pass.
 """
 
 
+from xml.etree.ElementTree import TreeBuilder
+
+
 def loop_ranger(start, stop=None, step=1):
     """Return a list of numbers between start and stop in steps of step.
 
@@ -17,11 +20,11 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    loop_1 = []
+    lst = []
     while start < stop:
-        loop_1.append(start)
-        start =+ step
-    return loop_1
+        lst.append(start)
+        start = start + step
+    return lst
 
 def two_step_ranger(start, stop):
     """Make a range that steps by 2.
@@ -31,11 +34,10 @@ def two_step_ranger(start, stop):
 
     You can either reuse loop_ranger, or the range function that in the standard library
     """
-    rnge = []
+    lst = []
     for i in range(start,stop,2):
-        rnge.append(i)
-    return rnge
-
+        lst.append(i)
+    return lst
 
 def stubborn_asker(low, high):
     """Ask for a number between low and high until actually given one.
@@ -45,7 +47,6 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-        
 
 
 def not_number_rejector(message):
