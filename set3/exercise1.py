@@ -68,12 +68,12 @@ def not_number_rejector(message):
     """
     while True:
         try:
-            txt = int(input(message))
+            msg = int(input(message))
         except ValueError:
             print("That's not a number. Try Again.")
         else:
-            print(f"Thanks! {txt} is a number.")
-            return txt
+            print(f"Thanks! {msg} is a number.")
+            return msg
             
             
 def super_asker(low, high):
@@ -83,14 +83,15 @@ def super_asker(low, high):
     to make a function that does it all!
     """
     x = range(low,high)
+
     while True:
         try:
-            txt = int(input(f"Enter a number between {low} and {high}:\n"))
-            if txt not in x:
-                print(f"{txt} is not between {low} and {high}!")
+            asker = int(input(f"Enter a number between {low} and {high}:\n"))
+            if asker not in x:
+                print(f"{asker} is not between {low} and {high}!")
             else:
-                print(f"Correct! {txt} is between {low} and {high}.")
-                return txt
+                print(f"Correct! {asker} is between {low} and {high}.")
+                return asker
         except ValueError:
             print("That's not a number!")
 
