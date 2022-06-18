@@ -74,7 +74,7 @@ def not_number_rejector(message):
         else:
             print(f"Thanks! {msg} is a number.")
             return msg
-            
+
             
 def super_asker(low, high):
     """Robust asking function.
@@ -86,7 +86,7 @@ def super_asker(low, high):
 
     while True:
         try:
-            asker = int((input(f"Enter a number between {low} and {high}:\n")))
+            asker = int(input(f"Enter a number between {low} and {high}:\n"))
             if asker not in x:
                 print(f"{asker} is not between {low} and {high}!")
             else:
