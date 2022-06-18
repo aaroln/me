@@ -4,6 +4,7 @@ Steps on the way to making your own guessing game.
 """
 
 import random
+from tempfile import TemporaryFile
 
 
 def advancedGuessingGame():
@@ -28,8 +29,40 @@ def advancedGuessingGame():
     Remember to think modular. Try to keep your functions small and single
     purpose if you can!
     """
+    
+    print("Welcome to the guessing game!")
+    while True:
+      try:
+        lowerBound = int(input("First, enter the lower bound:\n"))
+        if lowerBound < 0:
+          print("Only positive numbers, thanks! Try Again.")
+      except ValueError:
+        print("That's not a number!")
+      else:
+          print(f"Great, the lower bound is {lowerBound}.")
+      
 
-    return "You got it!"
+    while True:
+
+      try:
+        upperBound = int(input("Next, choose an upper bound.\n"))
+        if upperBound < lowerBound:
+              print(f"{upperBound} isn't greater than {lowerBound}.")
+        else:
+          return(f"Alright, the random number will be between {lowerBound} and {upperBound}.")
+      except ValueError:
+        print("That's not a number!")
+
+              
+
+
+                
+        
+    
+    
+    
+
+    #return "You got it!"
     # the tests are looking for the exact string "You got it!". Don't modify that!
 
 
