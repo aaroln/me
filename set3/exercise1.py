@@ -47,7 +47,7 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    x = range(low,high)
+    x = range(low,(high+1))
 
     txt = int(input(f"Enter a number between {low} and {high}:\n"))
 
@@ -68,7 +68,7 @@ def not_number_rejector(message):
     """
     while True:
         try:
-            msg = int(input(message))
+            msg = int((input(message)))
         except ValueError:
             print("That's not a number. Try Again.")
         else:
@@ -82,11 +82,11 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    x = range(low,high)
+    x = range(low,(high+1))
 
     while True:
         try:
-            asker = int(input(f"Enter a number between {low} and {high}:\n"))
+            asker = int((input(f"Enter a number between {low} and {high}:\n")))
             if asker not in x:
                 print(f"{asker} is not between {low} and {high}!")
             else:
@@ -94,6 +94,7 @@ def super_asker(low, high):
                 return asker
         except ValueError:
             print("That's not a number!")
+            
 
 
 if __name__ == "__main__":
