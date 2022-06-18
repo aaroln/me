@@ -68,24 +68,31 @@ def not_number_rejector(message):
     """
     while True:
         try:
-            txt = int(input(f"Give any number:\n"))
+            txt = int(input(message))
         except ValueError:
-            while txt != type(int): 
-                print("That's not a number")
-                txt = input(f"Give any number:\n")
-            else:
-                print("Thanks")
-                return txt
-
-
-
+            print("That's not a number. Try Again.")
+        else:
+            print(f"Thanks! {txt} is a number.")
+            return txt
+            
+            
 def super_asker(low, high):
     """Robust asking function.
 
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    return None
+    x = range(low,high)
+    while True:
+        try:
+            txt = int(input(f"Enter a number between {low} and {high}:\n"))
+            if txt not in x:
+                print(f"{txt} is not between {low} and {high}!")
+            else:
+                print(f"Correct! {txt} is between {low} and {high}.")
+                return txt
+        except ValueError:
+            print("That's not a number!")
 
 
 if __name__ == "__main__":
