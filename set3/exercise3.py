@@ -29,29 +29,57 @@ def advancedGuessingGame():
     Remember to think modular. Try to keep your functions small and single
     purpose if you can!
     """
-    
+    lowerBound = -1
+
     print("Welcome to the guessing game!")
-    while True:
+    while lowerBound < 0:
       try:
         lowerBound = int(input("First, enter the lower bound:\n"))
-        if lowerBound < 0:
-          print("Only positive numbers, thanks! Try Again.")
-      except ValueError:
-        print("That's not a number!")
-      else:
+        if lowerBound >= 0:
           print(f"Great, the lower bound is {lowerBound}.")
-      
+        else:
+          print("Only positive numbers. Try Again.")
+          lowerBound = -1
+      except ValueError:
+        print("That's not a number! Try Again.")  
 
-    while True:
+    upperBound = -1
+        
+    while upperBound < 0:
 
       try:
-        upperBound = int(input("Next, choose an upper bound.\n"))
-        if upperBound < lowerBound:
-              print(f"{upperBound} isn't greater than {lowerBound}.")
+        upperBound = int(input("Next, enter an upper bound:\n"))
+        if upperBound > lowerBound:
+              print(f"Alright, the random number will be between {lowerBound} and {upperBound}.")
         else:
-          return(f"Alright, the random number will be between {lowerBound} and {upperBound}.")
+          print(f"{upperBound} is not greater than {lowerBound}. Try Again.")
+          upperBound = -1
       except ValueError:
-        print("That's not a number!")
+        print("That's not a number! Try Again.")
+
+    realNumber = random.randint(lowerBound, upperBound)
+
+    correct = False
+
+    while not correct:
+
+      try:
+        numberGuessed = int(input("Guess a number:\n"))
+        print(f"You guessed {numberGuessed}")
+        if numberGuessed == realNumber:
+          print(f"It was {realNumber}.")
+          correct = True
+        elif numberGuessed not in range(lowerBound,upperBound):
+          print(f"Really? {numberGuessed} isn't even between {lowerBound} and {upperBound}!")
+        elif numberGuessed < realNumber:
+          print("More than that. Try Again.")
+        elif numberGuessed > realNumber:
+          print("Less than that. Try Again.")
+      except ValueError:
+        print("That's not even a number!")
+
+    return "You got it!"
+
 
               
 
