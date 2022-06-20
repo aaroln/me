@@ -26,6 +26,12 @@ def binary_search(low, high, actual_number):
 
     # Write your code in here
 
+    r = range(low,high)
+    l = list(r)
+    
+    
+
+            
     return {"guess": guess, "tries": tries}
 
 
