@@ -25,13 +25,10 @@ def binary_search(low, high, actual_number):
     guess = 0
 
     # Write your code in here
-
-    r = range(low,high)
-    l = list(r)
     
-    
+    print(f"{low},{high},{actual_number}")
 
-            
+    
     return {"guess": guess, "tries": tries}
 
 
