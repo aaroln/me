@@ -2,6 +2,7 @@
 """Set 3, Exercise 4."""
 
 import math
+from re import M
 
 
 def binary_search(low, high, actual_number):
@@ -25,10 +26,20 @@ def binary_search(low, high, actual_number):
     guess = 0
 
     # Write your code in here
-    
-    print(f"{low},{high},{actual_number}")
+
 
     
+    while low < high:
+        mid = (low + high) // 2
+        tries = tries + 1
+        if mid == actual_number:
+            guess = mid
+            return {"guess": guess, "tries": tries}
+        elif actual_number < mid:
+            high = mid
+        else:
+            low = mid
+        
     return {"guess": guess, "tries": tries}
 
 
