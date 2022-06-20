@@ -28,7 +28,7 @@ def binary_search(low, high, actual_number):
     # Write your code in here
 
 
-    
+
     while low < high:
         mid = (low + high) // 2
         tries = tries + 1
