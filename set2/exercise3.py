@@ -295,25 +295,11 @@ def loops_7():
             asterisks.append(symbol)
         middle.append(asterisks)
 
-    spaces_0 = spaces[0] 
-    spaces_1 = spaces[1]
-    spaces_2 = spaces[2]
-    spaces_3 = spaces[3]
-    spaces_4 = spaces[4]
+    spaces.extend(middle)
 
-    middle_0 = middle[0]
-    middle_1 = middle[1]
-    middle_2 = middle[2]
-    middle_3 = middle[3]
-    middle_4 = middle[4]
+    print(spaces)
+    return [s+m+s2 for s,m,s2 in zip(spaces,middle,spaces)]
 
-    lst_0 = spaces_0 + middle_0 + spaces_0
-    lst_1 = spaces_1 + middle_1 + spaces_1
-    lst_2 = spaces_2 + middle_2 + spaces_2
-    lst_3 = spaces_3 + middle_3 + spaces_3
-    lst_4 = spaces_4 + middle_4 + spaces_4
-    total = [lst_0] + [lst_1] + [lst_2] + [lst_3] + [lst_4]
-    return total
 
 
 
