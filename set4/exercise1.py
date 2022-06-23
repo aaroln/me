@@ -40,7 +40,15 @@ def get_some_details():
     json_data = open(LOCAL + "/lazyduck.json").read()
 
     data = json.loads(json_data)
-    return {"lastName": None, "password": None, "postcodePlusID": None}
+
+    lastname = data["results"][0]["name"]["last"]
+
+    password = data["results"][0]["login"]["password"]
+
+    pc_id = int(data["results"][0]["id"]["value"]) + int(data["results"][0]["location"]["postcode"])
+
+
+    return {"lastName": lastname, "password": password, "postcodePlusID": pc_id}
 
 
 def wordy_pyramid():
@@ -77,7 +85,17 @@ def wordy_pyramid():
     ]
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &wordlength=
     """
+    import requests
     pyramid = []
+    for i in range(3,21,2):
+        r = requests.get(f'https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={i}')
+        word = r.text
+        pyramid.append(word)
+
+    for i in range(20,3,-2):
+        r = requests.get(f'https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={i}')
+        word = r.text
+        pyramid.append(word)
 
     return pyramid
 
