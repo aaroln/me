@@ -159,7 +159,9 @@ def diarist():
         gcode = f.read()
         wordCount = gcode.count("M10 P1")
         
-    
+    with open(LOCAL + "\\lasers.pew", "w", encoding="utf-8") as w:
+        number = str(wordCount)
+        w.write(number)
 
 
     pass
