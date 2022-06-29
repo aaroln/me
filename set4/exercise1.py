@@ -154,6 +154,14 @@ def diarist():
 
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
+
+    with open(LOCAL + "/Trispokedovetiles(laser).gcode", "r", encoding="utf-8") as f:
+        gcode = f.read()
+        wordCount = gcode.count("M10 P1")
+        
+    
+
+
     pass
 
 
