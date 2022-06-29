@@ -114,13 +114,27 @@ def pokedex(low=1, high=5):
          get very long. If you are accessing a thing often, assign it to a
          variable and then future access will be easier.
     """
-    id = 5
-    url = f"https://pokeapi.co/api/v2/pokemon/{id}"
+    MaxHeight = 0
+    MaxHeightID = 0
+
+    for i in range(low,high):
+        url = f"https://pokeapi.co/api/v2/pokemon/{i}"
+        r = requests.get(url)
+        if r.status_code is 200:
+            the_json = json.loads(r.text)
+        
+        PokeHeight = the_json["height"]
+
+        if PokeHeight > MaxHeight:
+            MaxHeight = PokeHeight
+            MaxHeightID = i
+
+    url = f"https://pokeapi.co/api/v2/pokemon/{MaxHeightID}"
     r = requests.get(url)
     if r.status_code is 200:
         the_json = json.loads(r.text)
 
-    return {"name": None, "weight": None, "height": None}
+    return {"name": the_json['forms'][0]['name'], "weight": the_json["weight"], "height": the_json["height"]}
 
 
 def diarist():
