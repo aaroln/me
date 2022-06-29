@@ -1,1 +1,2 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+Have chosen NSW charging infrastructure as my dataset. 
+
