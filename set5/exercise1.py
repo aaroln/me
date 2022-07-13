@@ -31,16 +31,14 @@ def wordy_pyramid():
     )
     pyramid_list = []
     for i in range(3, 21, 2):
-        url = baseURL.format(length=i)
-        r = requests.get(url)
+        get_a_word_of_length_n(i)
         if r.status_code is 200:
             message = r.text
             pyramid_list.append(message)
         else:
             print("failed a request", r.status_code, i)
     for i in range(20, 3, -2):
-        url = baseURL.format(length=i)
-        r = requests.get(url)
+        get_a_word_of_length_n(i)
         if r.status_code is 200:
             message = r.text
             pyramid_list.append(message)
@@ -51,6 +49,8 @@ def wordy_pyramid():
 
 
 def get_a_word_of_length_n(length):
+    url = baseURL.format(length=i)
+    r = requests.get(url)
     pass
 
 
