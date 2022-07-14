@@ -23,7 +23,6 @@ that easier for you by making the function stubs for the bits you need to do.
 Modify this function, don't write a whole new one.
 """
 
-
 def wordy_pyramid():
 
     list_of_lengths = range(3,21,2)
@@ -44,16 +43,18 @@ def get_a_word_of_length_n(length):
     r = requests.get(url)
     if r.status_code == 200:
         message = r.text
-    return message
+        return message
 
     
 def list_of_words_with_lengths(list_of_lengths):
-    pyramid_list = []
+    lst = []
     for length in list_of_lengths:
         message = get_a_word_of_length_n(length)
-        pyramid_list.append(message)
+        lst.append(message)
 
-    return pyramid_list
+    return lst
+
+ 
  
 if __name__ == "__main__":
     pyramid = wordy_pyramid()
