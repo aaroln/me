@@ -53,9 +53,7 @@ def list_of_words_with_lengths(list_of_lengths):
         lst.append(message)
 
     return lst
-
- 
- 
+    
 if __name__ == "__main__":
     pyramid = wordy_pyramid()
 for word in pyramid:
