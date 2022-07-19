@@ -100,18 +100,17 @@ def abba(source="abba", guard=3):
         Hint: when guard == -1 return the letter.
         """
         if letter == "a":
-            return "a"
+            return "bba"
         elif letter == "b":
-            return "b"
+            return "aob"
         elif letter == "o":
-            return "o"
+            return "oa"
         else:
             return letter
 
     # write the rest of the function here
 
     new_string = ""
-
 
     if guard > -1:
         for letter in source:
