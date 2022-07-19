@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 11,
+    "mark": 12,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n youff"
+        "name": "exercise 1: get_a_word_of_length_n yobbo"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n gabbards"
+        "name": "exercise 1: get_a_word_of_length_n iotacism"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n iocs"
+        "name": "exercise 1: get_a_word_of_length_n iago"
       },
       {
         "value": 1,
@@ -408,7 +408,7 @@
         "name": "exercise 2: abba roof\u21e8roabbaoabbaf"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 2: abba hell\u21e8hell"
       },
       {
