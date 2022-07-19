@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 14,
+    "mark": 15,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n yodel"
+        "name": "exercise 1: get_a_word_of_length_n oadal"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n iotacism"
+        "name": "exercise 1: get_a_word_of_length_n macaasim"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n saad"
+        "name": "exercise 1: get_a_word_of_length_n yont"
       },
       {
         "value": 1,
@@ -396,7 +396,7 @@
         "name": "Exercise 1: wordy_pyramid still works"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 2: abba baaab\u21e8bbaoaaobaobaobbbaaobaobbbaaobaobbbabbaoaaob"
       },
       {
