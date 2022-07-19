@@ -100,11 +100,11 @@ def abba(source="abba", guard=3):
         Hint: when guard == -1 return the letter.
         """
         if letter == "a":
-            return "bba"
-        elif letter == "b":
             return "aob"
+        elif letter == "b":
+            return "bbaoaaob"
         elif letter == "o":
-            return "oa"
+            return "oabba"
         else:
             return letter
             
@@ -119,9 +119,12 @@ def abba(source="abba", guard=3):
             new_string = new_string + l
 
     else:
-        return source
+        return new_string
 
-    return abba(source, guard)
+    return new_string
+
+print(abba('roof', 3))
+
 
 
 def koch(t, order, size):
