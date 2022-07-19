@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 12,
+    "mark": 13,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n ygapo"
+        "name": "exercise 1: get_a_word_of_length_n laang"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n raadzaal"
+        "name": "exercise 1: get_a_word_of_length_n ionicism"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n paal"
+        "name": "exercise 1: get_a_word_of_length_n iare"
       },
       {
         "value": 1,
@@ -404,7 +404,7 @@
         "name": "exercise 2: abba b\u21e8bbaoaaob"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 2: abba roof\u21e8roabbaoabbaf"
       },
       {

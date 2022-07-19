@@ -100,7 +100,7 @@ def abba(source="abba", guard=3):
         Hint: when guard == -1 return the letter.
         """
         if letter == "a":
-            return "aob"
+            return "bba"
         elif letter == "b":
             return "bbaoaaob"
         elif letter == "o":
@@ -119,11 +119,14 @@ def abba(source="abba", guard=3):
             new_string = new_string + l
 
     else:
-        return new_string
+        pass
 
     return new_string
 
 print(abba('roof', 3))
+
+
+
 
 
 
