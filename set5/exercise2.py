@@ -107,21 +107,22 @@ def abba(source="abba", guard=3):
             return "oa"
         else:
             return letter
+            
 
     # write the rest of the function here
 
     new_string = ""
-
+    guard -= 1
     if guard > -1:
         for letter in source:
             l = apply_rules(letter, guard)
-            guard -= 1
             new_string = new_string + l
-            
-    else:
-        pass
 
-    return new_string       
+    else:
+        return source
+
+    return abba(source, guard)
+
 
 def koch(t, order, size):
     """Make turtle t draw a Koch fractal of 'order' and 'size'."""
@@ -191,10 +192,10 @@ def draw_pointy(steps=4):
 
 
 if __name__ == '__main__':
-    print(draw_koch(drawing_method=square_koch, steps_deep=2))
-    print(draw_koch(drawing_method=square_koch, steps_deep=3))
-    print(draw_koch(drawing_method=square_koch, steps_deep=4))
-    print(draw_koch(drawing_method=koch, steps_deep=2))
+#    print(draw_koch(drawing_method=square_koch, steps_deep=2))
+#    print(draw_koch(drawing_method=square_koch, steps_deep=3))
+#    print(draw_koch(drawing_method=square_koch, steps_deep=4))
+#    print(draw_koch(drawing_method=koch, steps_deep=2))
     print("AB:", abba())
     print("ID:", str(italian_dinner()))
     pass
