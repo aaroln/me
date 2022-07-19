@@ -122,12 +122,6 @@ def abba(source="abba", guard=3):
 
     return new_string
 
-print(abba('roof', 3))
-
-
-
-
-
 
 def koch(t, order, size):
     """Make turtle t draw a Koch fractal of 'order' and 'size'."""
