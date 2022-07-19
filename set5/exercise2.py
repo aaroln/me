@@ -110,10 +110,19 @@ def abba(source="abba", guard=3):
 
     # write the rest of the function here
 
-    result = list(map(apply_rules))
+    new_string = ""
 
-    
 
+    if guard > -1:
+        for letter in source:
+            l = apply_rules(letter, guard)
+            guard -= 1
+            new_string = new_string + l
+            
+    else:
+        pass
+
+    return new_string       
 
 def koch(t, order, size):
     """Make turtle t draw a Koch fractal of 'order' and 'size'."""
@@ -170,7 +179,6 @@ def square_koch(t, order, size):
         t.left(90)
         trace += square_koch(t, order-1, size/3)
     return str(order) + trace
-
 
 
 def draw_square(steps=4):
