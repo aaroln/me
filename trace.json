@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 10,
+    "mark": 11,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n waapa"
+        "name": "exercise 1: get_a_word_of_length_n oadal"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n ypsiloid"
+        "name": "exercise 1: get_a_word_of_length_n iffiness"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n ymca"
+        "name": "exercise 1: get_a_word_of_length_n idea"
       },
       {
         "value": 1,
@@ -412,7 +412,7 @@
         "name": "exercise 2: abba hell\u21e8hell"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 2: Koch _|-|_"
       },
       {

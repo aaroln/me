@@ -5,6 +5,7 @@ Exercises and examples to illustrate recursion.
 """
 
 
+from lib2to3.pytree import LeafPattern
 import turtle
 
 
@@ -108,7 +109,10 @@ def abba(source="abba", guard=3):
             return letter
 
     # write the rest of the function here
-    pass
+
+    result = list(map(apply_rules))
+
+    
 
 
 def koch(t, order, size):
@@ -153,8 +157,20 @@ def square_koch(t, order, size):
     """
     trace = ""
     # write the rest of the function here.
+    if order == 0:
+        t.forward(size)
+    else:
+        trace += square_koch(t, order-1, size/3)
+        t.left(90)
+        trace += square_koch(t, order-1, size/3)
+        t.right(90)
+        trace += square_koch(t, order-1, size/3)
+        t.right(90)
+        trace += square_koch(t, order-1, size/3)
+        t.left(90)
+        trace += square_koch(t, order-1, size/3)
     return str(order) + trace
-    pass
+
 
 
 def draw_square(steps=4):
