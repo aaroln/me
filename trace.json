@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 13,
+    "mark": 14,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n laang"
+        "name": "exercise 1: get_a_word_of_length_n yodel"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n ionicism"
+        "name": "exercise 1: get_a_word_of_length_n iotacism"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n iare"
+        "name": "exercise 1: get_a_word_of_length_n saad"
       },
       {
         "value": 1,
@@ -400,7 +400,7 @@
         "name": "exercise 2: abba baaab\u21e8bbaoaaobaobaobbbaaobaobbbaaobaobbbabbaoaaob"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 2: abba b\u21e8bbaoaaob"
       },
       {
