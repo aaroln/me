@@ -263,7 +263,7 @@ def random_filler_text(number_of_words=200) -> str:
     """
 
     my_dict = make_filler_text_dictionary()
-    
+
     words = []
     for i in range(number_of_words):
         length = random.randint(3, 7)
@@ -288,6 +288,16 @@ def fast_filler(number_of_words=200) -> str:
     """
 
     fname = "dict_cache.json"
+
+    try:
+        with open(fname, 'w', encoding='utf-8') as fp:
+            checking = json.load(fp)
+    except IOError:
+        print('File not found, will create a new one.')
+        
+
+
+    
 
     return None
 
