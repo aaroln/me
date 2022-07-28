@@ -426,7 +426,7 @@
   "7",
   {
     "of_total": 34,
-    "mark": 25,
+    "mark": 24,
     "results": [
       {
         "value": 1,
@@ -521,16 +521,16 @@
         "name": "\nset_it_on_fire:\n    given:    \ud83d\udc96my heart\ud83d\udc96\n    expected: \ud83d\udd25\ud83d\udc96\ud83d\udd25M\ud83d\udd25Y\ud83d\udd25 \ud83d\udd25H\ud83d\udd25E\ud83d\udd25A\ud83d\udd25R\ud83d\udd25T\ud83d\udd25\ud83d\udc96\ud83d\udd25\n    got:      \ud83d\udd25\ud83d\udc96\ud83d\udd25M\ud83d\udd25Y\ud83d\udd25 \ud83d\udd25H\ud83d\udd25E\ud83d\udd25A\ud83d\udd25R\ud83d\udd25T\ud83d\udd25\ud83d\udc96\ud83d\udd25"
       },
       {
-        "value": 1,
-        "name": "\npet_filter:\n    given:    x\n    expected: ['red fox']\n    got:      ['red fox']"
-      },
-      {
-        "value": 1,
-        "name": "\npet_filter:\n    given:    q\n    expected: []\n    got:      []"
+        "value": 0,
+        "name": "\npet_filter:\n    given:    x\n    expected: ['red fox']\n    got:      []"
       },
       {
         "value": 0,
-        "name": "\npet_filter:\n    given:    p\n    expected: ['pig', 'sheep', 'guinea pig', 'python', 'scorpion', 'pigeon', 'alpaca', 'guppy']\n    got:      ['pig', 'sheep', 'guinea pig', 'python', 'scorpion', 'pigeon', 'alpaca', 'guppy', 'guppy']"
+        "name": "\npet_filter:\n    given:    ['q']\n    expected: []\n    got:      pop from empty list"
+      },
+      {
+        "value": 1,
+        "name": "\npet_filter:\n    given:    p\n    expected: ['pig', 'sheep', 'guinea pig', 'python', 'scorpion', 'pigeon', 'alpaca', 'guppy']\n    got:      ['pig', 'sheep', 'guinea pig', 'python', 'scorpion', 'pigeon', 'alpaca', 'guppy']"
       },
       {
         "value": 0,
