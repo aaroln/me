@@ -292,16 +292,14 @@ def fast_filler(number_of_words=200) -> str:
     file_exists = os.path.exists(fname)
     if file_exists == False:
         dictionary = make_filler_text_dictionary()
-        json_object = json.dumps(dictionary)
-        with open(fname, 'w', encoding='utf-8') as newfile:
-            newfile.write(json_object)
-    else:
-        with open(fname, 'r', encoding='utf-8') as oldfile:
-            json_read = json.loads(str(oldfile))
-            
-            
+        with open(fname, 'w', encoding='utf=8') as w:
+            json.dump(dictionary, w)
 
-    return json_read
+    with open(fname, 'r', encoding='utf-8') as r:
+        load = {int(key): [str(item) for item in value] for key, value in json.load(r)}
+
+    return load
+    
 
 if __name__ == "__main__":
     print("give_me_five", give_me_five(), type(give_me_five()))
@@ -320,14 +318,14 @@ if __name__ == "__main__":
     print("take_five", take_five(5))
     print("take_five", take_five(3))
     print("greet:", greet())
-    print("three_counter:", one_counter())
-    print("n_counter:", n_counter(7))
-    print("fizz_buzz:", fizz_buzz())
-    print("put_behind_bars:", set_it_on_fire())
-    print("pet_filter:", pet_filter())
-    print("best_letter_for_pets:", best_letter_for_pets())
-    print("make_filler_text_dictionary:", make_filler_text_dictionary())
-    print("random_filler_text:", random_filler_text())
+    #print("three_counter:", one_counter())
+    #print("n_counter:", n_counter(7))
+    #print("fizz_buzz:", fizz_buzz())
+    #print("put_behind_bars:", set_it_on_fire())
+    #print("pet_filter:", pet_filter())
+    #print("best_letter_for_pets:", best_letter_for_pets())
+    #print("make_filler_text_dictionary:", make_filler_text_dictionary())
+    #print("random_filler_text:", random_filler_text())
     print("fast_filler:", fast_filler())
     for i in range(4):
         print(i, fast_filler(number_of_words=20), "\n")

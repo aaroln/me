@@ -550,19 +550,19 @@
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      Expecting value: line 1 column 1 (char 0)"
+        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      'dict' object has no attribute 'split'"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      Expecting value: line 1 column 1 (char 0)"
+        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      0"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      Expecting value: line 1 column 1 (char 0)"
+        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      -1"
       },
       {
         "value": 0,
-        "name": "subsequent fast_filler failed: Expecting value: line 1 column 1 (char 0)"
+        "name": "Timed out trying to run fast filler 10 times in 1 second, subsequent fast_filler probably wasn't fast enoughFunction <lambda> (args=()) (kwargs={}) timed out after 1.000000 seconds.\n"
       }
     ],
     "week_number": 8
