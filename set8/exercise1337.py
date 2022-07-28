@@ -289,17 +289,22 @@ def fast_filler(number_of_words=200) -> str:
 
     fname = "dict_cache.json"
 
+    file_exists = os.path.exists(fname)
+
+
+    fname = "dict_cache.json"
+    txt = random_filler_text(number_of_words)
+
     try:
         with open(fname, 'w', encoding='utf-8') as fp:
             checking = json.load(fp)
     except IOError:
         print('File not found, will create a new one.')
-        
-
-
     
+    with open(fname, 'w', encoding='utf-8') as fp:
+        json.dump(txt, fp)
 
-    return None
+    return fname
 
 
 if __name__ == "__main__":

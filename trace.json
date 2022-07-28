@@ -426,7 +426,7 @@
   "7",
   {
     "of_total": 34,
-    "mark": 31,
+    "mark": 30,
     "results": [
       {
         "value": 1,
@@ -561,8 +561,8 @@
         "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      'NoneType' object is not subscriptable"
       },
       {
-        "value": 1,
-        "name": "subsequent fast_filler"
+        "value": 0,
+        "name": "Timed out trying to run fast filler 10 times in 1 second, subsequent fast_filler probably wasn't fast enoughFunction <lambda> (args=()) (kwargs={}) timed out after 1.000000 seconds.\n"
       }
     ],
     "week_number": 8
