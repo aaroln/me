@@ -247,7 +247,7 @@ def make_filler_text_dictionary() -> Dict:
             lst.append(txt)
         wd[i] = lst
         lst = []
-        
+
     return wd
 
 
@@ -263,9 +263,12 @@ def random_filler_text(number_of_words=200) -> str:
     """
 
     my_dict = make_filler_text_dictionary()
-
+    
     words = []
-
+    for i in range(number_of_words):
+        length = random.randint(3, 7)
+        wordchoice = random.randint(0, 3)
+        words.append(my_dict[length][wordchoice])
     return " ".join(words)
 
 
