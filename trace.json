@@ -550,19 +550,19 @@
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      local variable 'json_object' referenced before assignment"
+        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      Expecting value: line 1 column 1 (char 0)"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      local variable 'json_object' referenced before assignment"
+        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      Expecting value: line 1 column 1 (char 0)"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      local variable 'json_object' referenced before assignment"
+        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      Expecting value: line 1 column 1 (char 0)"
       },
       {
         "value": 0,
-        "name": "subsequent fast_filler failed: local variable 'json_object' referenced before assignment"
+        "name": "subsequent fast_filler failed: Expecting value: line 1 column 1 (char 0)"
       }
     ],
     "week_number": 8
