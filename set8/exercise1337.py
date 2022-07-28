@@ -124,6 +124,19 @@ def fizz_buzz() -> List:
     fizz_buzz_list = []
     # your code here
 
+    for i in range(1,101):
+        if i % 5 and i % 5 == 0:
+            i = 'FizzBuzz'
+            fizz_buzz_list.append(i)
+        elif i % 3 == 0:
+            i = 'Fizz'
+            fizz_buzz_list.append(i)
+        elif i % 5 == 0:
+            i = 'Buzz'
+            fizz_buzz_list.append(i)
+        else:
+            fizz_buzz_list.append(i)
+
     return fizz_buzz_list
 
 
