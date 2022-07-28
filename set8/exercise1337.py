@@ -296,7 +296,11 @@ def fast_filler(number_of_words=200) -> str:
             json.dump(dictionary, w)
 
     with open(fname, 'r', encoding='utf-8') as r:
-        load = {int(key): [str(item) for item in value] for key, value in json.load(r)}
+        load = json.load(r)
+
+    load = dict(load)
+
+    
 
     return load
     
@@ -312,12 +316,12 @@ if __name__ == "__main__":
     print(
         "string_list_please", string_list_please(), type(string_list_please()) == list
     )
-    print("dictionary_please", type(dictionary_please()) == dict)
-    print("is_it_5", is_it_5(5))
-    print("is_it_5", is_it_5(6))
-    print("take_five", take_five(5))
-    print("take_five", take_five(3))
-    print("greet:", greet())
+    #print("dictionary_please", type(dictionary_please()) == dict)
+    #print("is_it_5", is_it_5(5))
+    #print("is_it_5", is_it_5(6))
+    #print("take_five", take_five(5))
+    #print("take_five", take_five(3))
+    #print("greet:", greet())
     #print("three_counter:", one_counter())
     #print("n_counter:", n_counter(7))
     #print("fizz_buzz:", fizz_buzz())
