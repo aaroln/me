@@ -550,19 +550,19 @@
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      'NoneType' object has no attribute 'split'"
+        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      local variable 'json_object' referenced before assignment"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      'NoneType' object is not subscriptable"
+        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      local variable 'json_object' referenced before assignment"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      'NoneType' object is not subscriptable"
+        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      local variable 'json_object' referenced before assignment"
       },
       {
         "value": 0,
-        "name": "Timed out trying to run fast filler 10 times in 1 second, subsequent fast_filler probably wasn't fast enoughFunction <lambda> (args=()) (kwargs={}) timed out after 1.000000 seconds.\n"
+        "name": "subsequent fast_filler failed: local variable 'json_object' referenced before assignment"
       }
     ],
     "week_number": 8

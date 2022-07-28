@@ -290,22 +290,16 @@ def fast_filler(number_of_words=200) -> str:
     fname = "dict_cache.json"
 
     file_exists = os.path.exists(fname)
+    if file_exists == False:
+        dictionary = make_filler_text_dictionary()
+        json_object = json.dumps(dictionary)
+        with open(fname, 'w', encoding='utf-8') as newfile:
+            newfile.write(json_object)
+    else:
+        with open(fname, 'r', encoding='utf-8') as oldfile:
+            j = oldfile.read(json_object)
 
-
-    fname = "dict_cache.json"
-    txt = random_filler_text(number_of_words)
-
-    try:
-        with open(fname, 'w', encoding='utf-8') as fp:
-            checking = json.load(fp)
-    except IOError:
-        print('File not found, will create a new one.')
-    
-    with open(fname, 'w', encoding='utf-8') as fp:
-        json.dump(txt, fp)
-
-    return fname
-
+    return j
 
 if __name__ == "__main__":
     print("give_me_five", give_me_five(), type(give_me_five()))
