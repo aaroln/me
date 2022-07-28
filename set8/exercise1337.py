@@ -48,7 +48,7 @@ def string_list_please() -> list:
 
 def dictionary_please() -> dict:
     """Returns a dictionary, anything you like."""
-    ry = {'colour', 'yellow'}
+    ry = {1: 'yellow'}
     return ry
 
 
@@ -181,10 +181,9 @@ def pet_filter(letter="a") -> List:
     # fmt: on
     filtered = []
 
-    for i in pets:
-        for j in i:
-            if j == letter:
-                filtered.append(i)
+    for i in range(len(pets)):
+        if letter in pets[i]:
+            filtered.append(pets[i])
 
     return filtered
 
@@ -200,7 +199,15 @@ def best_letter_for_pets() -> str:
     import string
 
     the_alphabet = string.ascii_lowercase
-    most_popular_letter = ""
+    most_popular_letter = '0'
+    mx = 0
+
+
+    for i in the_alphabet:
+        j = pet_filter(i)
+        if len(j) > mx:
+            mx = len(j)
+            most_popular_letter = str(i)
 
     return most_popular_letter
 
