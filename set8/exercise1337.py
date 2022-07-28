@@ -297,7 +297,8 @@ def fast_filler(number_of_words=200) -> str:
             newfile.write(json_object)
     else:
         with open(fname, 'r', encoding='utf-8') as oldfile:
-            json_read = json.loads(fname)
+            json_read = json.loads(str(oldfile))
+            
             
 
     return json_read
