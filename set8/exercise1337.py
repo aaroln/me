@@ -237,9 +237,17 @@ def make_filler_text_dictionary() -> Dict:
     TIP: you'll need the requests library
     """
 
-    url = "https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength="
     wd = {}
-
+    lst = []
+    for i in range(3,8):
+        for j in range(4):
+            url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={i}"
+            r = requests.get(url)
+            txt = r.text
+            lst.append(txt)
+        wd[i] = lst
+        lst = []
+        
     return wd
 
 
