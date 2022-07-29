@@ -272,7 +272,7 @@ def random_filler_text(number_of_words=200) -> str:
     return " ".join(words)
 
 
-def fast_filler(number_of_words=200) -> str:
+def fast_filler(number_of_words=10) -> str:
     """Makes filler text, but really fast.
 
     This time, the first time the code runs, save the dictionary returned
@@ -309,7 +309,11 @@ def fast_filler(number_of_words=200) -> str:
         words.append(c[length][wordchoice])
     x = " ".join(words)
 
-    return x
+    y = x.capitalize()
+
+    y = y + "."
+
+    return y
     
 
 if __name__ == "__main__":
