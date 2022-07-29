@@ -279,43 +279,43 @@
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 65) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 2) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 58) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 25) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 56) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 69) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 72) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 75) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 7) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 19) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 94) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 43) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 15) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 25) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 9) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 42) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 55) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 97) randomly generated test value"
       },
       {
         "value": 1,
-        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 73) randomly generated test value"
+        "name": "Exercise 4: binary_search (low: 0, high: 100, target: 3) randomly generated test value"
       }
     ],
     "week_number": 3
@@ -361,11 +361,11 @@
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n vache"
+        "name": "exercise 1: get_a_word_of_length_n iberi"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n raadzaal"
+        "name": "exercise 1: get_a_word_of_length_n uarekena"
       },
       {
         "value": 1,
@@ -381,11 +381,11 @@
       },
       {
         "value": 1,
-        "name": "exercise 1: list_of_words_with_lengths {word}"
+        "name": "exercise 1: list_of_words_with_lengths None"
       },
       {
         "value": 1,
-        "name": "exercise 1: list_of_words_with_lengths {word}"
+        "name": "exercise 1: list_of_words_with_lengths None"
       },
       {
         "value": 1,
