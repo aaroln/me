@@ -300,9 +300,16 @@ def fast_filler(number_of_words=200) -> str:
 
     load = dict(load)
 
-    
+    c = dict((int(key), value) for (key, value) in load.items())
 
-    return load
+    words = []
+    for i in range(number_of_words):
+        length = random.randint(3, 7)
+        wordchoice = random.randint(0, 3)
+        words.append(c[length][wordchoice])
+    x = " ".join(words)
+
+    return x
     
 
 if __name__ == "__main__":

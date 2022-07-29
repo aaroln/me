@@ -426,7 +426,7 @@
   "7",
   {
     "of_total": 34,
-    "mark": 30,
+    "mark": 32,
     "results": [
       {
         "value": 1,
@@ -549,20 +549,20 @@
         "name": "\nrandom_filler_text:\n    given:    1000\n    expected: True\n    got:      True"
       },
       {
-        "value": 0,
-        "name": "\nfast_filler:\n    given:    [100]\n    expected: True\n    got:      'str' object has no attribute 'update'"
+        "value": 1,
+        "name": "\nfast_filler:\n    given:    100\n    expected: True\n    got:      True"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      'str' object has no attribute 'update'"
+        "name": "\nfast_filler:\n    given:    10\n    expected: True\n    got:      False"
       },
       {
         "value": 0,
-        "name": "\nfast_filler:\n    given:    [10]\n    expected: True\n    got:      'str' object has no attribute 'update'"
+        "name": "\nfast_filler:\n    given:    10\n    expected: True\n    got:      False"
       },
       {
-        "value": 0,
-        "name": "subsequent fast_filler failed: 'str' object has no attribute 'update'"
+        "value": 1,
+        "name": "subsequent fast_filler"
       }
     ],
     "week_number": 8
