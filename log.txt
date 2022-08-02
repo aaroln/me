@@ -1,0 +1,1056 @@
+commit 31a1487f425cfa3eed74786f76a160b1caf14ae4
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Aug 1 12:36:26 2022 +1000
+
+    cowabunga
+
+commit 256b2011e39f2dc924ef466f7fa884e5a38011a8
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 20:59:54 2022 +1000
+
+    python3.9
+
+commit 85fc52549ab3acb311be5f493da9b859f8762237
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 20:55:18 2022 +1000
+
+    python 3.9
+
+commit 1709b72c0ae478aa298e5beee9a1f64e881ac79c
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 18:43:42 2022 +1000
+
+    all done
+
+commit 08ad8eb4c2ded90bbe089676b0e40a77ecaca261
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 18:32:32 2022 +1000
+
+    cowabunga
+
+commit 337a6e990ce88289ab73c11bb6e8d3fd36163370
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 17:19:14 2022 +1000
+
+    b
+
+commit 87c5cdce1f8c62f8c8b7a25c72a743c19c5de3ad
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 00:59:48 2022 +1000
+
+    try
+
+commit f01297d8d8653855a36394dc05f8bd8fa6e914de
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 29 00:27:26 2022 +1000
+
+    check
+
+commit 0dce91909d5c08ebaecd33593597c66b65c19d4c
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 17:54:07 2022 +1000
+
+    push
+
+commit ab305a41c41e73ccee54ea0df1d7d4c6c317c313
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 17:40:49 2022 +1000
+
+    ok
+
+commit b48f249e7e7b6b35af3f66491b041145984833e9
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 17:30:42 2022 +1000
+
+    ok
+
+commit 89c95a0f970d1c744ed6765f38559df0b6679e9d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 17:28:35 2022 +1000
+
+    ok
+
+commit c9bc6c806e98facb73325f8fb6b5d61e283f819f
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 17:15:41 2022 +1000
+
+    j
+
+commit 16f110a3b1e06c0b2c0ed7c351b05a0fe4c18cf4
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 17:06:16 2022 +1000
+
+    j
+
+commit 65b5bdf3d469f25a1d310e8871ff01885069254d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 16:53:09 2022 +1000
+
+    j
+
+commit cfa5f1d53a50b276cfceea368b548a6ad9ec664d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 16:51:24 2022 +1000
+
+    j
+
+commit 982b82fa3517909afe096f7d83199de1f577a65b
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 16:42:19 2022 +1000
+
+    j
+
+commit 2f02d25b6e5794cf09d3a722d006d5e0692d133d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 16:08:59 2022 +1000
+
+    t
+
+commit 53372bc38e98a245ea1c045185bbb64e0480fb2d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 16:08:29 2022 +1000
+
+    c
+
+commit 60f2400d6e7338ae0c57dba337095cbfe462dca6
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 15:51:03 2022 +1000
+
+    j
+
+commit ce96a110baa0824f63688004a99c266c2a97021e
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 15:48:38 2022 +1000
+
+    j
+
+commit 4d285b968b828edc9ffdd6fb07dcdc3ce4ca17a7
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 15:42:23 2022 +1000
+
+    i
+
+commit e642d3f8ad232b68c0dffaf6f71786da4c3497d4
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 15:38:31 2022 +1000
+
+    i
+
+commit ce97d2e582c6a2ff9e3c759ace2c28d23d115243
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 15:35:24 2022 +1000
+
+    check
+
+commit 8e4781c7b461723b7277da0ea5dd7dd24f96d332
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 15:29:25 2022 +1000
+
+    check
+
+commit b944be516adec94d409a32088764c8a0f780b834
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 14:29:45 2022 +1000
+
+    check
+
+commit 9f496cee4d41fd9b326aa0f28d828a1803ebbe58
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 13:07:57 2022 +1000
+
+    check
+
+commit cb87d04b1627d77b69275b714ac6f1932fe62ed9
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 13:06:39 2022 +1000
+
+    check
+
+commit 79fd508d0a6fc4fda4700e09e2e68ac6609ad9f3
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 13:05:13 2022 +1000
+
+    check
+
+commit e08dfcc12d5a2e4207be1000f89b6ae91da9e818
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 00:47:46 2022 +1000
+
+    check
+
+commit 5ec9acc86c8e62d1b97b424bd253c518fd771f31
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 00:46:17 2022 +1000
+
+    check
+
+commit c8c692c9bf8a99951224ad2b3be00bde3d0e18f5
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 00:43:41 2022 +1000
+
+    check
+
+commit b9ae50db89b67806689a5ae30543bf2cac91eeb3
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 28 00:24:53 2022 +1000
+
+    check
+
+commit 5399a2c84bac8c3d5c4df9c0ea5141e03f389fb4
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 27 16:35:35 2022 +1000
+
+    working
+
+commit 3a6c7290163f763116b521c22c9ce7b6b43e53b8
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 27 16:34:32 2022 +1000
+
+    maps
+
+commit 1ef49dad2224f83609238794e951486788620921
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 27 16:12:05 2022 +1000
+
+    clean up
+
+commit 4aa25a4a304b5dca429c8c449063fd5cc3911b20
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 27 16:08:29 2022 +1000
+
+    check
+
+commit 27027dbe5b27e2e5b24ccf2bd2a619c0810d214e
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 21 21:10:07 2022 +1000
+
+    n
+
+commit 3a1cc46c161eff32deccd4f4be9ff5e3f4cd0fe5
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 21 15:05:08 2022 +1000
+
+    folders added
+
+commit 888aa3659cfe683ad18af359720072622ef2379d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 01:00:00 2022 +1000
+
+    read
+
+commit 1b2ca3b2c0629af327daf423f4123ba4e9f4d862
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 00:54:26 2022 +1000
+
+    testing
+
+commit 7ed3a3847d67f15a8a8f9006160c1487ee563d18
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 00:52:06 2022 +1000
+
+    donzo
+
+commit 621452c1544892ec04e4edc584a0c22d61f34631
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 00:51:30 2022 +1000
+
+    donzo
+
+commit 623a158da2054ff39510773c34ea1cadf26b33aa
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 00:51:02 2022 +1000
+
+    donzo
+
+commit ec04373800f5efb94644cc6bff340402f561f51a
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 00:50:23 2022 +1000
+
+    close
+
+commit 57d93e6d7a86929b1f937c6b23bab597e839272d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jul 20 00:45:00 2022 +1000
+
+    do these even work
+
+commit d108adeee9aea7db7f7f895e12699fbbdb83a4cc
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 23:49:56 2022 +1000
+
+    save
+
+commit 77c8cd63e6bf873acc4b82fad15e6cc2fdb1ffb1
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 23:49:49 2022 +1000
+
+    save
+
+commit ab82be8a13c3b125a6861fdb248b3395e4ce1d04
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 23:32:03 2022 +1000
+
+    close
+
+commit d6cf45164587d56877431fabdb2e6b3adc3bc4e2
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 23:31:31 2022 +1000
+
+    getting there
+
+commit d1d50e408dbad3311a40a751cd5e025e83d70427
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 22:25:27 2022 +1000
+
+    try
+
+commit 291ad4d683add0c2441817ddbf8663bf82cd704e
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 22:23:46 2022 +1000
+
+    soon
+
+commit 16df7757abbdb4826b9d645d3e16e655abfcbca1
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 22:16:56 2022 +1000
+
+    commit
+
+commit f5b8b7f154ffa1623855bb47f0e44085c405552a
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 22:16:51 2022 +1000
+
+    still going
+
+commit eab5513e48b6b461c25c28cd6f3f8cf2608727cc
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 19:22:46 2022 +1000
+
+    square koch
+
+commit 0a84fe22be0bb11a8db1dd7c2a5c6ed5c2fa57c8
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 16:27:36 2022 +1000
+
+    still going
+
+commit 20dfe7fea2957141584c657c9337756e3954b87f
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 16:22:04 2022 +1000
+
+    readme edit set4
+
+commit 4831fdfa8edcc9b80e3e5443cf6d09528d60b233
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 16:11:52 2022 +1000
+
+    set5
+
+commit 031714e5491c32130bb0d7d140649d64887b87ff
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 16:11:06 2022 +1000
+
+    deleted
+
+commit 85893cc3aa7b38560f213e690c8fd7ac3b41613f
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 16:05:07 2022 +1000
+
+    deleted
+
+commit 252d3c0c8f6a41cad5694c516bc5cb9239ae6bf6
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 15:52:06 2022 +1000
+
+    mac
+
+commit 1d93303aa61385a101171b228fd7f15453688024
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jul 19 14:46:08 2022 +1000
+
+    delete
+
+commit 6dee722186eef48088367f009c4a0767c4f16e84
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 15 13:38:15 2022 +1000
+
+    redoing tests
+
+commit b67c78cafb26802fe3f0e2c988ab9cda12524bee
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 15 00:37:25 2022 +1000
+
+    try again
+
+commit 56fca2f98ab4a0435005a41e65e088bf7d7a643b
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 14 23:33:43 2022 +1000
+
+    done?
+
+commit 8633e135356d03a92b6d1b612fcc8b492530b532
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 14 23:20:29 2022 +1000
+
+    s
+
+commit b03c6df2329a1ec140e3cffd7a8d7ca82fd2dc3b
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 14 01:39:28 2022 +1000
+
+    attempt1
+
+commit d44ef99021cf311bf2ae980b7c58f753fba4918c
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jul 14 01:31:15 2022 +1000
+
+    pandas
+
+commit 9fa23af5701dd89621b5fb1dcd55537cb96080a2
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 1 16:42:16 2022 +1000
+
+    start of data project
+
+commit b975341debbd523bb0c0fe76e45ea4ac3d1cafc3
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jul 1 16:17:17 2022 +1000
+
+    changes
+
+commit 8b0885a4c0a2529efa51f04e08d7b82a308bae19
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 15:00:21 2022 +1000
+
+    still going
+
+commit 74a67340dd9bc683d3a3063bc70daf17041b7690
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 14:44:56 2022 +1000
+
+    jason
+
+commit f30d27e7583fa4128b1d4a09f21bcc40c8db24d4
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 14:43:49 2022 +1000
+
+    completed?
+
+commit 6be7419cb426953db047dd88486789bc4d6ba1b8
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 14:43:40 2022 +1000
+
+    lasers
+
+commit 234be267bd2cb580ae0fcbeef728cbd8c78c6f68
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 12:57:44 2022 +1000
+
+    still going
+
+commit 17ac664bca1fdadbda59068ab88b6904f3589889
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 12:57:36 2022 +1000
+
+    dataset
+
+commit 62f81b26f6c4e683237f403b395d9b567edf98df
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Wed Jun 29 12:04:09 2022 +1000
+
+    6/7
+
+commit 6db981a69ae364a112c53889696383afea09885a
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 23 17:37:20 2022 +1000
+
+    class
+
+commit 6750023607e5645fb5b53a9cd4fbefe9d25bae2e
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 23 17:37:14 2022 +1000
+
+    clean ip
+
+commit 0fdde6e8ffad5fabb1a604d1534107054b66dee3
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 23:19:26 2022 +1000
+
+    finished
+
+commit 92c864c55ae1f64a860ff60452b6c02c544aa7ef
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 23:17:26 2022 +1000
+
+    finished
+
+commit 789ad70a133158401e14b75fb1b58418944f4972
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 23:00:51 2022 +1000
+
+    still going
+
+commit a8726479ad275a2e9df3192fe33b56e72250ccb9
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 23:00:37 2022 +1000
+
+    finished
+
+commit 5f25370f24d1e2d87184906e92c0942cfca0d341
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 21:54:17 2022 +1000
+
+    done!
+
+commit ea50e179bb1a2547c8249fa35374ad18326fe52a
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 18:28:06 2022 +1000
+
+    still going
+
+commit 9702f216f540f37810bc48e3eb91a5d9c31268a0
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 16:12:25 2022 +1000
+
+    new course repo
+
+commit 24d2e8b7a4117d93eb3449c373dd7bb6bafc1e23
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 01:31:15 2022 +1000
+
+    readme edit
+
+commit cb316c04cc919382faca18c091dad0f37a426683
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 20 01:30:36 2022 +1000
+
+    finished guessing game
+
+commit c9b1a9d4d580f4b576f9667a523bf6de913968f0
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 21:37:05 2022 +1000
+
+    start
+
+commit 3d28cbc767f997d452e484b2c9b0920650b0693e
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 20:44:41 2022 +1000
+
+    still going
+
+commit 5359a0ed353261c262054ef2c0a99f38df625b96
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 20:26:39 2022 +1000
+
+    int error
+
+commit 1b84f0c810ca36b923cb97b6b4711ff3e83a56a7
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 19:19:34 2022 +1000
+
+    still going...
+
+commit 41f2c498b5ef1c1995354221b997905cb1b53245
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 19:10:34 2022 +1000
+
+    exercise 1 nearly done
+
+commit b9acaad3b0081784d3ba1211823c2b2b460ba3ae
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 18:03:54 2022 +1000
+
+    readme first
+
+commit a2d04f082a96cdd509afb2556bd3eced2d467271
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sat Jun 18 17:59:49 2022 +1000
+
+    still on exercise 1
+
+commit df13b8e294b2e5e55cdac6d331ae1fb4f91cc7f4
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jun 17 02:04:59 2022 +1000
+
+    redo
+
+commit 6969d0a2e5efa68af58b7a42085d0b816994b21e
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 16 17:17:47 2022 +1000
+
+    exercise1
+
+commit b1664fffaf52c14a2f078ccef2f1f628e73dd0cd
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 16 17:00:37 2022 +1000
+
+    set3 attempt
+
+commit 8efcb59cbeadba352216c7c435a654b07d327481
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jun 14 20:41:21 2022 +1000
+
+    finished readme for the week
+
+commit 4ac17b8e36926773bce4f7226e0820695d1a8df8
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jun 14 17:01:03 2022 +1000
+
+    edit readme
+
+commit 781dc1a9e39937d0a5f28291f97ec371ae38fd73
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jun 14 14:51:20 2022 +1000
+
+    readme started
+
+commit e74c97e221085a752898861c76f05d1c18bfdb7d
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jun 14 14:33:17 2022 +1000
+
+    completed 7
+
+commit 438a46ccd845f913817b121fa1ee76f7916506da
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Tue Jun 14 00:11:33 2022 +1000
+
+    last commit
+
+commit 6f29e7f07ad9b8d245d18301ed4b62134d9bdf32
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 13 23:57:54 2022 +1000
+
+    attempting 7
+
+commit 9d8f4862529a2999335af0950a40373ccd320cf9
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Mon Jun 13 22:42:49 2022 +1000
+
+    first part problem 7
+
+commit 8e3a4fe606ffee3306064543fa95532832e6743b
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jun 10 19:59:24 2022 +1000
+
+    pyramid attempt
+
+commit 13d05891b3aaa62f391f0a7884af727bfaa28e32
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jun 10 19:55:29 2022 +1000
+
+    33 completed!
+
+commit 570706a80683dfe441318d048f6f0128a89182d8
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jun 10 19:35:08 2022 +1000
+
+    coordinates done
+
+commit 6c56c6f9b137d09d917b1d6dc6effc61862bdd2a
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jun 10 19:18:49 2022 +1000
+
+    exercise 3
+
+commit 1a353f7e90116dbec5945af90f1e81790cc98b49
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Fri Jun 10 18:07:01 2022 +1000
+
+    exercise 3
+
+commit 12f40235436d8914cc92b4f52a4388d792149cff
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 22:36:12 2022 +1000
+
+    exercise 3 attempt
+
+commit 1508700e26e048d190539fd987b3e09c783ac184
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 21:49:56 2022 +1000
+
+    2nd edit at home
+
+commit 0d25bbec44699fdea90ce5d036444ad472c6c030
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 20:52:19 2022 +1000
+
+    edit at home
+
+commit 1bccff5bc834432fc68c1cd8f7653bf849005402
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 18:01:31 2022 +1000
+
+    class change
+
+commit 3429fc1e09800797540649f84ddce25812296338
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 17:56:24 2022 +1000
+
+    class last edit
+
+commit 351cf7b890c82a2465b37e20958be891b74dfa97
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 17:02:32 2022 +1000
+
+    Exercise 2 attempted
+
+commit bdd8c88a8bbb84c7100b9a5d7ffe66c766b225dc
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 9 16:56:21 2022 +1000
+
+    Exercise0 attempted
+
+commit c242100a30e56173ffcfd64dbf9f2be6bcb44054
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sun Jun 5 15:27:53 2022 +1000
+
+    adding to readme
+
+commit b045334d0654057ca54e8a9b4999940eca135155
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Sun Jun 5 14:35:53 2022 +1000
+
+    email edit
+
+commit 42f4c8fb36fb31f3d20717bafb1b6790f920ce62
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 2 19:55:55 2022 +1000
+
+    set1
+
+commit 7c56d87df4dacdaf55d3035f84b23b73466bd59f
+Author: Aaro Lahtinen <lahtinenaaro77@gmail.com>
+Date:   Thu Jun 2 17:52:16 2022 +1000
+
+    Set1 Exercise
+
+commit f51a373cb053a61a9f7f405401d6f2ba1983f8e8
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Tue May 31 10:06:47 2022 +1000
+
+    clarify a lot of docstrings
+
+commit ae6f9961a593f5b45b85dc8afffa765390de8dda
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:40:46 2022 +1000
+
+    use vars
+
+commit 9baffb0085871f0d24842b26a6168c0ac339ec02
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:37:36 2022 +1000
+
+    remove old file
+
+commit 00b561e362dd1e124f4da4fbbe70b565a84977ef
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:37:27 2022 +1000
+
+    correct the end bit
+
+commit 4f35a6b1e342a459775b3fb412b1841b1131e0c5
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:22:15 2022 +1000
+
+    use f strings
+
+commit 506b18efcb11d34f6fed2a044e319be70c84fc6f
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:59:02 2022 +1000
+
+    make pyramid cleareer
+
+commit dde2c330f3fea5da453c209a3e5183fe60e602f2
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:58:01 2022 +1000
+
+    reorganise the capsule
+
+commit 383c7795df47edd18b7ae41f3e55ede903c3d14f
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:53:39 2022 +1000
+
+    make list comp more obvious
+
+commit b0041c5d3afe489c84394aeed9c7993172784c31
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:53:18 2022 +1000
+
+    add with example
+
+commit ead1b4d325f95eaf5ee099dbffd469fddedebab3
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:51:16 2022 +1000
+
+    clearer docstrings
+
+commit 8515d467aacacde28490235ae04edc602876a007
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:51:03 2022 +1000
+
+    remove lone ranger
+
+commit 78eebb8961931206eedbd9e252a23b143498993b
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Mon May 16 11:43:05 2022 +1000
+
+    repo tidy up
+
+commit 352cfcfcb1067d2d37cb136e71b947fa900809b6
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Sat May 7 12:22:36 2022 +1000
+
+    add some comments to make it clearer what to do in this file
+    
+    It was a bit mysterious before
+    Hopefully this it more valuable
+
+commit ff7eb0a89c55b90c534dafcebdbbca7c0207ce96
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:26:04 2022 +1000
+
+    reset to base
+
+commit 1e32d5d9f2ea82cd854a353f32e7c0ea0bb8cead
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:24:44 2022 +1000
+
+    update docs link to go somewhere useful
+
+commit 11b50827c12b9e766fce8cd1d26f9d69baa9fa16
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:12:47 2022 +1000
+
+    Change map to list comp
+    
+    Now that it's py3 map returns itterator, not a list.
+    This doesn't work easily with the following lines
+
+commit 7637a67ab176461298f35fe9bf54f091446df6a7
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 17:12:50 2022 +1000
+
+    Update contact details
+    
+    Because I needed to.
+    @constuname told me to...
+
+commit 26db73abac3116bbf137899cce4f43e15cf52107
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 3 16:28:31 2021 +1000
+
+    ignore rope
+
+commit ee1cbcea7eb98fc5fc6882317abd100353a2ff46
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 3 16:27:58 2021 +1000
+
+    final updates
+
+commit 6c177229dae90d38e207281bdd05b027381e7032
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun May 30 15:49:41 2021 +1000
+
+    change week to set
+
+commit 18c8826d9b02b7e22ebedb1ea55cc53208c40eb1
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun May 30 15:41:09 2021 +1000
+
+    rename weeks
+
+commit b8682bdd942dece3f0528c0f25a05d31d6fb3af9
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 22 13:41:48 2020 +1000
+
+    Actually commit changes, don't be a scumbag
+
+commit e905c4391c79b852fee2397b23ad39d517b4832d
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 22 12:21:24 2020 +1000
+
+    better doc strings
+
+commit d77757539da99a31630899463948c376c07a5482
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 15 08:49:49 2020 +1000
+
+    add more explanitory text
+
+commit 95d2297abf4328e1594df46eace5a4292516a281
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jun 10 14:42:50 2020 +1000
+
+    clearer instructions
+
+commit 5fa9ed73c098cbfb76bfa6f289d81e62d0ef97d7
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Tue Jun 2 19:42:17 2020 +1000
+
+    clearer docstring
+
+commit 72ced4f9122a73109ccd6090832d07993ac12d35
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Tue Jun 2 18:28:37 2020 +1000
+
+    Pull exam
+
+commit 39d5d6c6235affc87b3d729a31d3e60dd64dfbcd
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:53:41 2019 +1000
+
+    remove base
+
+commit e00a0f6b5061379a36d4a78f933aee7b78db46fa
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:52:59 2019 +1000
+
+    pokedex exercise
+
+commit 908b40573a10a6172b77b11bdcd1c45ada636cc2
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:52:50 2019 +1000
+
+    extra tip about 3d printing
+
+commit 79eca502d0d3dfb18cc9136b9a5cb15087faf326
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 15:29:21 2019 +1000
+
+    not needed
+
+commit 493f38b7bcd6c0d3fb497a8ad30f72eca2b81fc5
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 15:27:28 2019 +1000
+
+    remove the exam, closes #4
+
+commit ddddad8c797aa99fbfb6e5410c21d58036d2b2da
+Merge: 30d5e6f 6cb3e70
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 13:48:43 2019 +1000
+
+    Merge pull request #5 from BaptisteHiggs/master
+    
+     Typo fixes, clearer wording, updating links, & other miscellaneous changes
+
+commit 6cb3e70e4bed84acda6716182410ec11e83ee805
+Author: BaptisteHiggs <16fogterminator@gmail.com>
+Date:   Mon Jun 3 21:56:20 2019 +1000
+
+    Typo fixes, clearer wording, updating links, & other miscellaneous changes
+
+commit 30d5e6ffa47550731ef6b6f2600b652c8d65a9f9
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Mon Jun 3 18:13:35 2019 +1000
+
+    more generic key names
+
+commit 340d283ad3e4b6706b7153a0c9200553f854b039
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Mon Jun 3 18:13:15 2019 +1000
+
+    add more details to the commands
+
+commit 18395ed253e8df1460cd8167439eaaba6bfede3e
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun Jun 2 21:59:39 2019 +1000
+
+    Linting
+
+commit b7381a08b1334449878e089fd5537e474a93a5ba
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun Jun 2 21:58:55 2019 +1000
+
+    More generic about me
+
+commit 950c08fb0b762e384e495492fc858727affdf32a
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun Jun 2 21:32:30 2019 +1000
+
+    use real json
+
+commit c0e4e5f2be4f9ef68a184b5fbb2d3b3ec81ffdd0
+Author: BaptisteHiggs <16fogterminator@gmail.com>
+Date:   Sun Jun 2 13:28:22 2019 +1000
+
+    week2exercise0 edits
+
+commit d5948276a33628a50692bab629e1ac42ec04014c
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 19:39:51 2019 +1000
+
+    unavoidable linting
+
+commit a7f70964d9d794bc1d49b07f4fa3581f79d8825c
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 19:39:37 2019 +1000
+
+    remove these imports, too confusing
+
+commit 9f872fff61c90baed70db0c35ebfd28a8a3e8c99
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 19:39:20 2019 +1000
+
+    initial
+
+commit 28dec83292421bb93ddc86bb0bbeed7d30f118f7
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 18:40:54 2019 +1000
+
+    redamage
+
+commit c2b9a0d9a97e5edab850c17a19a46d45e8fc4218
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 18:35:25 2019 +1000
+
+    tidy log boks
+
+commit 01a5494c1b07a18cf3d76d6c040786998cabdf4b
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 17:39:39 2019 +1000
+
+    tidying mainly
+
+commit 901758c94ca309c4f91ba0b6b24922968655fe60
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 11:09:53 2019 +1000
+
+    change debug advice
+    now that there is vs code debugging
+
+commit 1f88fc7cfeae33aabd27f0cd108392040c21793e
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 11:04:37 2019 +1000
+
+    clearer docs
+
+commit 5863ffb974dd298725687fa864aabdd215c26a46
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 10:56:48 2019 +1000
+
+    first
+
+commit 3b00cf2cdd70b8c6c6224f16f6523cbaae072042
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 10:54:44 2019 +1000
+
+    pass -> return
+
+commit 3c954963241985b1f1d7eb55cb13335e366a1bed
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 10:53:41 2019 +1000
+
+    add returns
+
+commit ebffc9c3bb03fa624d7a943449feb98367bbf5b5
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu May 30 19:00:21 2019 +1000
+
+    Image markdown
+
+commit 4bedd8d039001be4766986fc4dcb07e4e1ea144b
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu May 30 18:59:31 2019 +1000
+
+    first
