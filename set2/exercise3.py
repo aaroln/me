@@ -35,9 +35,12 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-
-
-    
+    if moves and should_move or not moves and not should_move:
+        return "No Problem"
+    elif not moves and should_move:
+        return "WD-40"
+    else:
+        return "Duct Tape"
 
 
 
@@ -48,7 +51,7 @@ def loops_preview():
     return a list of 8 items, each one a string with exacly one 💩 in it.
     E.g.: ['💩', '💩', '💩', '💩', '💩', '💩', '💩', '💩']
     """
-
+    return ['💩' for i in range(8)]
 
 def loops_1a():
     """Make 10 stars.
@@ -57,7 +60,7 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-
+    return ['*' for i in range(10)]
 
 def loops_1c(number_of_items= 5, symbol = "#"):
     """Respond to variables.
@@ -69,6 +72,7 @@ def loops_1c(number_of_items= 5, symbol = "#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
+    return [symbol for i in range(number_of_items)]
 
 
 def loops_2():
@@ -89,6 +93,7 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
+    return [['*' for i in range(10)] for j in range(10)]
     
 def loops_3():
     """Make a rising block of numbers.
@@ -111,7 +116,7 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-
+    return [[str()]]
         
 
 
