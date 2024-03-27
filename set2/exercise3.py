@@ -16,10 +16,7 @@ def is_odd(a_number):
 
     So if a_number modulo two is zero, then it's even.
     """
-    if a_number % 2 == 0:
-        return False
-    else:
-        return True
+    return a_number % 2 != 0
 
 
 
@@ -39,14 +36,6 @@ def fix_it(moves=True, should_move=True):
     As an extra challenge, see if you can get that down to three.
     """
 
-    if moves == should_move:
-        return "No Problem"
-    elif moves == True and should_move == False:
-        return "Duct Tape"
-    elif moves == False and should_move == True:
-        return "WD-40"
-    else:
-        return "FAIL!"
 
     
 
@@ -59,10 +48,6 @@ def loops_preview():
     return a list of 8 items, each one a string with exacly one 💩 in it.
     E.g.: ['💩', '💩', '💩', '💩', '💩', '💩', '💩', '💩']
     """
-    choc_list = []
-    for i in range(8):
-        choc_list.append("💩")
-    return choc_list
 
 
 def loops_1a():
@@ -72,10 +57,6 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    star_list = []
-    for i in range(10):
-        star_list.append("*")
-    return star_list
 
 
 def loops_1c(number_of_items= 5, symbol = "#"):
@@ -88,11 +69,6 @@ def loops_1c(number_of_items= 5, symbol = "#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    c_list = []
-    for i in range(number_of_items):
-        c_list.append(symbol)
-    return c_list
-
 
 
 def loops_2():
@@ -113,15 +89,6 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    no_of_items = 10
-    symbol_2 = "*"
-    stars = []
-    for i in range(no_of_items):
-        stars.append(symbol_2)
-    starfield = []
-    for x in range(no_of_items):
-        starfield.append(stars)
-    return starfield
     
 def loops_3():
     """Make a rising block of numbers.
@@ -144,14 +111,6 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    constant = []
-    for x in map(str, range(10)):
-        changing = []
-        for y in range(10):
-            changing.append(x)
-        constant.append(changing)
-    return constant
-    
 
         
 
@@ -174,13 +133,6 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    constant = []
-    for x in range(10):
-        changing = []
-        for y in map(str, range(10)):
-            changing.append(y)
-        constant.append(changing)
-    return constant
 
 
 
@@ -211,13 +163,6 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    i_coord = []
-    for x in range(10):
-        j_coord = []
-        for y in range(5):
-            j_coord.append(f"(i{str(x)}, j{str(y)})")
-        i_coord.append(j_coord)
-    return i_coord
     
 
 
@@ -242,15 +187,6 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    chosen_range = 10
-    wedge = []
-    for x in range(chosen_range):
-        changing = []
-        for y in map(str, range(x+1)):
-            changing.append(y)
-        wedge.append(changing)
-    return wedge
-
         
 def loops_7():
     """Make a pyramid.
@@ -273,33 +209,6 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    chosen_range = range(5,0,-1)
-    chosen_range_2 = range(1,10,2)
-    symbol = "*"
-    space = " "
-
-    spaces = []
-
-    for i in chosen_range:
-        spaces_1 = []
-        for j in range(i - 1):
-            spaces_1.append(space)
-        spaces.append(spaces_1)
-
-    
-    middle = []
-
-    for x in chosen_range_2:
-        asterisks = []
-        for y in range(x):
-            asterisks.append(symbol)
-        middle.append(asterisks)
-
-    spaces.extend(middle)
-
-    print(spaces)
-    return [s+m+s2 for s,m,s2 in zip(spaces,middle,spaces)]
-
 
 
 
