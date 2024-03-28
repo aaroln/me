@@ -287,6 +287,7 @@ def fast_filler(number_of_words=10) -> str:
     If you get this one to work, you are a Very Good Programmer™!
     """
 
+    """
     fname = "dict_cache.json"
 
     file_exists = os.path.exists(fname)
@@ -314,7 +315,16 @@ def fast_filler(number_of_words=10) -> str:
     y = y + "."
 
     return y
-    
+
+#fast_filler: Yodled yquem yodel yodel yolkier yuapin iurant waac icons gab.
+#0 Uang iurant gab iurant yclad waac gab yont yont yodled gab yont uang yrbk fab gab waac icons gab aaronic.
+
+#1 Aaronic aaronic yuapin ise gab uang gab yrbk ise iotize iurant yuapin uang yolkier waac yodel fab iotize fab yodel.
+
+#2 Iurant ise yrbk fab gabarit ise yclad yolkier gabarit fab yodel wabbled yolkier yrbk wabbled yodel gabarit iotize ise waac.
+
+#3 Yclad yrbk fab taa yquem yclad wabbled yodel aaronic aaronic gab yrbk aaronic yrbk yquem yodled yodel gabarit iotize iotize.
+""" 
 
 if __name__ == "__main__":
     print("give_me_five", give_me_five(), type(give_me_five()))
