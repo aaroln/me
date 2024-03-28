@@ -116,10 +116,8 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return [[str()]]
+    return [[str(i) for j in range(10)] for i in range(10)]
         
-
-
 
 def loops_4():
     """Make a block of numbers that rises left to right.
@@ -138,7 +136,7 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-
+    return [[str(j) for j in range(10)] for i in range(10)]
 
 
 def loops_5():
@@ -168,8 +166,7 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    
-
+    return [[f"i{i}j{j} " for j in range(5)] for i in range(10)]
 
 
 def loops_6():
@@ -192,6 +189,7 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
+    return [[str(j) for j in range(i+1)] for i in range(10)]
         
 def loops_7():
     """Make a pyramid.
@@ -214,32 +212,9 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
+    height = 30
 
-
-
-
-
-
-    
-            
-
-
-    
-
-        
-
-        
-            
-        
-        
-
-        
-        
-    
-        
-    
-
-
+    return [[(i - 1) * " " + (-2 * i + (2 * height + 1)) * "*" + (i - 1) * " " for j in range(1)] for i in range(height,0,-1)]
 
 
 def little_printer(some_kind_of_list, exercise_name):
