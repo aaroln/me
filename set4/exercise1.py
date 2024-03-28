@@ -37,19 +37,22 @@ def get_some_details():
          dictionary, you'll need integer indeces for lists, and named keys for
          dictionaries.
     """
-    json_data = open(LOCAL + "/lazyduck.json").read()
+    file = LOCAL + "\lazyduck.json"
 
-    data = json.loads(json_data)
+    with open(file, "r") as f:
+        json_data = f.read()
+        data = json.loads(json_data)
+        results = data[results[0]]
+        last_name = results["name"]["last"]
+        password = results["login"]["password"]
+        postcode = results["location"]["postcode"]
+        print(data)
+        print(last_name)
+        print(password)
+        print(postcode)
 
-    lastname = data["results"][0]["name"]["last"]
 
-    password = data["results"][0]["login"]["password"]
-
-    pc_id = int(data["results"][0]["id"]["value"]) + int(data["results"][0]["location"]["postcode"])
-
-
-    return {"lastName": lastname, "password": password, "postcodePlusID": pc_id}
-
+    # {'lastName': 'hoogmoed', 'password': 'jokers', 'postcodePlusID': 4311240}
 
 def wordy_pyramid():
     """Make a pyramid out of real words.
@@ -85,19 +88,7 @@ def wordy_pyramid():
     ]
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &wordlength=
     """
-    import requests
-    pyramid = []
-    for i in range(3,21,2):
-        r = requests.get(f'https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={i}')
-        word = r.text
-        pyramid.append(word)
-
-    for i in range(20,3,-2):
-        r = requests.get(f'https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={i}')
-        word = r.text
-        pyramid.append(word)
-
-    return pyramid
+    
 
 
 def pokedex(low=1, high=5):
@@ -114,27 +105,7 @@ def pokedex(low=1, high=5):
          get very long. If you are accessing a thing often, assign it to a
          variable and then future access will be easier.
     """
-    MaxHeight = 0
-    MaxHeightID = 0
-
-    for i in range(low,high):
-        url = f"https://pokeapi.co/api/v2/pokemon/{i}"
-        r = requests.get(url)
-        if r.status_code is 200:
-            the_json = json.loads(r.text)
-        
-        PokeHeight = the_json["height"]
-
-        if PokeHeight > MaxHeight:
-            MaxHeight = PokeHeight
-            MaxHeightID = i
-
-    url = f"https://pokeapi.co/api/v2/pokemon/{MaxHeightID}"
-    r = requests.get(url)
-    if r.status_code is 200:
-        the_json = json.loads(r.text)
-
-    return {"name": the_json['forms'][0]['name'], "weight": the_json["weight"], "height": the_json["height"]}
+   
 
 
 def diarist():
@@ -155,14 +126,6 @@ def diarist():
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
 
-    with open(LOCAL + "/Trispokedovetiles(laser).gcode", "r", encoding="utf-8") as f:
-        gcode = f.read()
-        wordCount = gcode.count("M10 P1")
-        
-    with open(LOCAL + "\\lasers.pew", "w", encoding="utf-8") as w:
-        number = str(wordCount)
-        w.write(number)
-
 
     pass
 
@@ -170,20 +133,20 @@ def diarist():
 if __name__ == "__main__":
     print(get_some_details())
 
-    wp = wordy_pyramid()
-    [print(f"{word} {len(word)}") for word in wp]
+    #wp = wordy_pyramid()
+    #[print(f"{word} {len(word)}") for word in wp]
 
-    print(pokedex(low=3, high=7))
+    #print(pokedex(low=3, high=7))
 
-    diarist()
+    #diarist()
 
-    in_root = os.path.isfile("lasers.pew")
-    in_set4 = os.path.isfile("set4/lasers.pew")
-    if not in_set4 and not in_root:
-        print("diarist did not create lasers.pew")
-    elif not in_set4 and in_root:
-        print(
-            "diarist did create lasers.pew, but in the me folder, it should be in the set4 folder"
-        )
-    elif in_set4:
-        print("lasers.pew is in the right place")
+    #in_root = os.path.isfile("lasers.pew")
+    #in_set4 = os.path.isfile("set4/lasers.pew")
+    #if not in_set4 and not in_root:
+    #    print("diarist did not create lasers.pew")
+    #elif not in_set4 and in_root:
+    #    print(
+    #        "diarist did create lasers.pew, but in the me folder, it should be in the set4 folder"
+    #    )
+    #elif in_set4:
+    #    print("lasers.pew is in the right place")
