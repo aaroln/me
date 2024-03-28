@@ -29,69 +29,51 @@ def advancedGuessingGame():
     Remember to think modular. Try to keep your functions small and single
     purpose if you can!
     """
-    lowerBound = -1
+    print("This is a guessing game!")
 
-    print("Welcome to the guessing game!")
-    while lowerBound < 0:
-      try:
-        lowerBound = int(input("First, enter the lower bound:\n"))
-        if lowerBound >= 0:
-          print(f"Great, the lower bound is {lowerBound}.")
+    lower_bound = get_number("Enter a lower bound: ")
+
+    while True:
+        upper_bound = get_number("Enter an upper bound: ")
+
+        if lower_bound < upper_bound:
+            print(f"Your lower bound is {lower_bound} and your upper bound is {upper_bound}")
+            break
         else:
-          print("Only positive numbers. Try Again.")
-          lowerBound = -1
-      except ValueError:
-        print("That's not a number! Try Again.")  
-
-    upperBound = -1
+            print("That number is not greater than your lower bound!")
+            continue
         
-    while upperBound < 0:
+    random_number = random.randint(lower_bound, upper_bound)
 
-      try:
-        upperBound = int(input("Next, enter an upper bound:\n"))
-        if upperBound > lowerBound:
-              print(f"Alright, the random number will be between {lowerBound} and {upperBound}.")
+    print("Go on, have a guess!")
+
+    while True:
+        guess = get_number(f"Enter a number between {lower_bound} and {upper_bound}: ")
+
+        if lower_bound < guess < upper_bound:
+            if guess == random_number:
+              print(f"You got it! The number was {guess}")
+              return "You da boss"
+            elif guess > random_number:
+                print(f"Try less than that!")
+            else: 
+                print("Try more than that!")
         else:
-          print(f"{upperBound} is not greater than {lowerBound}. Try Again.")
-          upperBound = -1
-      except ValueError:
-        print("That's not a number! Try Again.")
-
-    realNumber = random.randint(lowerBound, upperBound)
-
-    correct = False
-
-    while not correct:
-
-      try:
-        numberGuessed = int(input("Guess a number:\n"))
-        print(f"You guessed {numberGuessed}")
-        if numberGuessed == realNumber:
-          print(f"It was {realNumber}.")
-          correct = True
-        elif numberGuessed not in range(lowerBound,upperBound):
-          print(f"Really? {numberGuessed} isn't even between {lowerBound} and {upperBound}!")
-        elif numberGuessed < realNumber:
-          print("More than that. Try Again.")
-        elif numberGuessed > realNumber:
-          print("Less than that. Try Again.")
-      except ValueError:
-        print("That's not even a number!")
-
-    return "You got it!"
+            print(f"That number is not between {lower_bound} and {upper_bound}")
 
 
               
+def get_number(sentence):
+    while True:
+        value = input(sentence)
 
+        try:
+            value = int(value)
+            return value
 
-                
-        
-    
-    
-    
-
-    #return "You got it!"
-    # the tests are looking for the exact string "You got it!". Don't modify that!
+        except ValueError:
+            print("That's not a number!")
+            continue
 
 
 if __name__ == "__main__":
